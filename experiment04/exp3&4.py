@@ -12,8 +12,10 @@ def func(x):
 a = 0
 b = 2
 n = 100
+print('=======复化梯形公式=======')
 print(fuhuatixing(func, a, b, n))
-print('--------------')
+# print('--------------')
+print('=======变步长梯形法=======')
 
 def bianbuchangtixing(func, a, b):
     h = b - a
