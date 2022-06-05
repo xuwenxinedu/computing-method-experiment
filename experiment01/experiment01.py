@@ -38,6 +38,7 @@ class Newton:
             cnt += 1
             x0 = x1
             x1 = x0 - self.fa(x0) / self.fd(x0)
+            print(x1)
         return x1, cnt
 
 def main():
@@ -46,6 +47,7 @@ def main():
     data = [-1, 1, 2]
     newton = Newton()
     for item in data:
+        print("======000======")
         print(newton.get_ans(item))
 
 if __name__ == "__main__":
